@@ -85,6 +85,11 @@ void showInvertedPiramid(int n) {
     }
 }
 
+void showDimond(int n) {
+    showPiramid(n);
+    showInvertedPiramid(n);
+}
+
 int main() {
 
     int n = 5;
@@ -113,4 +118,6 @@ int main() {
     cout<< "\n Inverted Piramid \n";
     showInvertedPiramid(n);
 
+    cout<< "\n Diamond \n";
+    showDimond(n);
 }
